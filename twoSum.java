@@ -1,5 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        //create an empty array to store the indices that we need to return
         int[] indices = new int[2];
         //if the value at the currentIndex + value @ the nextIndex == target, return those indices
         // otherwise increment the inner index and repeat the process
